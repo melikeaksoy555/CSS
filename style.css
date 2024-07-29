@@ -1,0 +1,15 @@
+body{
+    background-color: salmon;
+    color: blue;
+    font-size: 20px;
+    text-align: right;
+}
+
+h1{
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+/* body -> SELECTOR */
+/* background-color -> PROPERTY */
+/* salmon -> VALUE */
