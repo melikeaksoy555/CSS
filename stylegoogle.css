@@ -4,6 +4,7 @@
 }
 .main{
   margin-top: 100px;
+  text-align: center;
 }
 
 .logo-img{
@@ -58,8 +59,7 @@ padding: 50px 20px;
   cursor: pointer;
 }
 .search-btn{
-  display:block;
-  margin: 0 auto;
+
   margin-top: 30px;
 
   border: none;
