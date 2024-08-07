@@ -29,6 +29,12 @@ background-color: #88d8b0;
 .container {    /* nav */
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+}
+
+.container > div {
+    flex: 1;
+    /* flex-grow & flex-shrink & flex-basis */
+}
+.container > .home {
+    flex: 2;
 }
