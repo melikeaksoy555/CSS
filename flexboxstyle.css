@@ -1,40 +1,75 @@
 html,
 body {
-    background-color: #ffeead;
-    margin: 10px;
+  background-color: #ffeead;
+  margin: 10px;
 }
 
 .container > div {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: #ffeead;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
 }
 
 .container > div:nth-child(1) {
-background-color: #96ceb4;
+  background-color: #96ceb4;
 }
 
 .container > div:nth-child(2) {
-background-color: #ff6f69;
+  background-color: #ff6f69;
 }
 
 .container > div:nth-child(3) {
-background-color: #88d8b0;
+  background-color: #88d8b0;
 }
 
- /* ................................... */
+/* ................................... */
 
-
-.container {    /* nav */
-    border: 5px solid #ffcc5c;
-    display: flex;
+.container {
+  /* nav */
+  border: 5px solid #ffcc5c;
+  display: flex;
 }
 
 .container > div {
-    flex: 1;
-    /* flex-grow & flex-shrink & flex-basis */
+  flex: 1;
+  /* flex-grow & flex-shrink & flex-basis */
 }
 .container > .home {
-    flex: 2;
+  flex: 2;
+}
+
+.containerr > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.containerr > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.containerr > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.containerr > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* ................................... */
+.containerr{
+  border: 5px solid #ffcc5c;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.containerr > .homee{
+  align-self: flex-end;
+}
+
+.containerr > .logoutt{
+  align-self: flex-start;
 }
