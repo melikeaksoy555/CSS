@@ -107,3 +107,45 @@ body {
 .containerrr > div {
   width: 300px;
 }
+
+
+.containerrrr > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.containerrrr > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.containerrrr > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.containerrrr > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* ................................... */
+.containerrrr {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.homeeee{
+
+  /* flex: 1 1 200px; */
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.searchhhh{
+
+  /* flex: 2 5 200px; */
+  flex-basis: 200px;
+  flex-grow: 2;
+  flex-shrink: 5;
+}
