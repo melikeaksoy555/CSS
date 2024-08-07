@@ -39,8 +39,6 @@ body {
   flex: 2;
 }
 
-
-
 .containerr > div {
   padding: 10px;
   text-align: center;
@@ -61,22 +59,20 @@ body {
 }
 
 /* ................................... */
-.containerr{
+.containerr {
   border: 5px solid #ffcc5c;
   height: 600px;
   display: flex;
   align-items: center;
 }
 
-.containerr > .homee{
+.containerr > .homee {
   align-self: flex-end;
 }
 
-.containerr > .logoutt{
+.containerr > .logoutt {
   align-self: flex-start;
 }
-
-
 
 .containerrr > div {
   padding: 10px;
@@ -108,7 +104,6 @@ body {
   width: 300px;
 }
 
-
 .containerrrr > div {
   padding: 10px;
   text-align: center;
@@ -134,18 +129,53 @@ body {
   display: flex;
 }
 
-.homeeee{
-
+.homeeee {
   /* flex: 1 1 200px; */
   flex-basis: 200px;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
-.searchhhh{
-
+.searchhhh {
   /* flex: 2 5 200px; */
   flex-basis: 200px;
   flex-grow: 2;
   flex-shrink: 5;
+}
+
+.containerrrrr > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.containerrrrr > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.containerrrrr > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.containerrrrr > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* ................................... */
+.containerrrrr {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.homeeeee {
+  order: 1;
+}
+
+.searchhhhh {
+  order: -1;
+}
+
+.logouttttt {
+  order: 0;
 }
