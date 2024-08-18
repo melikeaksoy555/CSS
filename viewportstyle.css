@@ -1,0 +1,38 @@
+
+
+
+body{
+    font-size: 24px;
+}
+
+/* MAIN */
+
+    /* vw -> viewport width */
+    /* vh -> viewport height */
+
+.container {
+    background: #a30000;
+    color: white;
+    padding: 1em;
+
+    width: 50vw;
+
+}
+
+.container1{
+    background: #a30000;
+    color: white;
+    padding: 1em;
+
+    border-bottom: 5px solid green;
+
+    height: 50vh;
+}
+
+.container2{
+    background: #a30000;
+    color: white;
+    padding: 1em;
+
+    height: calc(100vh - 20px);
+}
